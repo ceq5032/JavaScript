@@ -1,0 +1,26 @@
+
+html {
+  background: darkgray;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: Geneva, Tahoma, sans-serif;
+
+}
+
+
+body {
+color: black;
+}
+
+
+button {
+  background: dodgerblue;
+  border-style: solid;
+  cursor:  pointer;
+  outline: black;
+  padding: 5px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+
