@@ -16,7 +16,7 @@ function changeBackgroundColor() {
 function startCountdown(seconds) {
   let timeLeft = seconds;
   const intervalId = setInterval(() => {
-    if (timeLeft === 0) {
+    if (timeLeft === -1) {
       clearInterval(intervalId);
       alert("Time's up!");
     } else {
