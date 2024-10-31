@@ -29,3 +29,140 @@ button {
   right: 1em;
 
 }
+
+h3{
+  padding-top: 30px;
+}
+
+.box{
+  padding: 10px;
+
+}
+
+:root{
+  --green: rgba(32, 201, 142, 1);
+  --blue: #00F;
+  --lightblue: rgba(134, 209, 247, 1);
+  --purple: #800080;
+  --pink: rgba(219, 72, 175, 1);
+  --transparent: #5adbab00;
+
+}
+
+.svg{
+  margin: 40px;
+}
+
+#greenCircle{
+  fill:var(--green)
+}
+
+#blueRect{
+  stroke:var(--transparent);
+  fill:var(--transparent);
+}
+
+#purpleRect{
+  stroke:var(--purple);
+  fill: var(--transparent);
+}
+
+#pinkLine{
+  fill:none;
+  stroke:var(--blue)
+}
+
+
+#greenCircle{
+  stroke:var(--green);
+  fill:var(--transparent);
+}
+
+#pinkCircle{
+  fill:var(--pink)
+}
+
+
+
+#greenCircle,
+#blueRect,
+#lightblueRect,
+#purpleLine,
+#pinkCircle,
+#purpleCircle{
+  transition: all 2s ease;
+}
+
+
+svg:hover #pinkCircle{
+  transform:translate(-50%, -10%)
+}
+
+svg:hover #greenCircle{
+  transform:translate(40%, -40%)
+}
+
+svg:hover #purpleCircle{
+  fill:var(--green)
+}
+svg:hover #lightblueRect{
+  stroke:var(--yellow)
+}
+svg:hover #blueRect{
+  stroke:var(--pink);
+  fill:var(--purple);
+}
+
+svg:hover #greenCircle{
+  transform:translate(40%, -40%);
+  transform:scale(140%);
+}
+
+svg:hover #blueRect{
+  stroke:var(--blue);
+  transform:scale(150%);
+}
+svg:hover #pinkCircle{
+  fill:var(--lightblue);
+  transform:scale(110%);
+}
+svg:hover #lightblueRect{
+  stroke:var(--purple);
+  fill:var(--blue);
+  transform:scale(75%);
+}
+
+svg:hover #greenCircle{
+  fill:var(--pink);
+  transform:scale(110%);
+  transform-origin:center;
+}
+svg:hover #blueRect{
+  stroke:var(--pink);
+  fill:var(--purple);
+  transform:scale(75%);
+  transform-origin:center;
+}
+
+svg:hover #lightblueRect{
+  stroke:var(--pink);
+  transform:rotate(360deg);
+  transform-origin:center;
+}
+svg:hover #purpleLine{
+  transform:rotate(-180deg);
+}
+
+svg:hover #blueRect{
+  stroke:var(--green);
+  transform:rotate(360deg);
+  transform-origin:right;
+}
+svg:hover #purpleLine{
+  transform-origin:center;
+  transform:rotate(-180deg);
+}
+
+
+
+
